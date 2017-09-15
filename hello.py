@@ -25,3 +25,27 @@ print(s)
 b = s.encode('utf-8')
 print(b)
 print(b.decode('utf-8'))
+
+L = [
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', 'Ruby', 'PHP'],
+    ['Adam', 'Bart', 'Lisa']
+]
+print(L[0][0])
+print(L[1][1])
+print(L[2][2])
+
+age = 20
+if age>20:
+    print('20')
+elif age==20:
+    print('222');
+else:
+    print('xxx')
+
+s = input('birth：')
+birth = int(s)
+if birth<2000:
+    print('00前')
+else:
+    print('00后')
