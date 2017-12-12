@@ -57,5 +57,22 @@ L = ['Bart', 'Lisa', 'Adam']
 for s in L:
     print('hello', s)
 
+n1 = 255
+print('n1=', n1)
+s1 = hex(n1)
+print('s1=', s1)
 
+# 定义一个函数
+def my_abs(x):
+    if x>=0:
+        return x
+    else:
+        return -x
 
+print(my_abs(-99))
+
+# 定义一个空函数
+def nop():
+    pass
+
+print('空函数不影响执行')
