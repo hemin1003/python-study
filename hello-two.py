@@ -76,3 +76,23 @@ def nop():
     pass
 
 print('空函数不影响执行')
+
+# 可变参数
+def calc(*numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+
+nums = [1, 2, 3]
+sum = calc(*nums)
+print(sum)
+
+# 关键字参数
+def person(name, age, **kw):
+    print('name:', name, 'age:', age, 'other:', kw)
+
+extra = {'city':'beijing', 'job':'engineer'}
+person('Minbo', 26, city='beijing', gender='male')
+person('Minbo', 26, city=extra['city'], job=extra['job'])
+person('Minbo', 26, **extra)
