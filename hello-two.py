@@ -96,3 +96,24 @@ extra = {'city':'beijing', 'job':'engineer'}
 person('Minbo', 26, city='beijing', gender='male')
 person('Minbo', 26, city=extra['city'], job=extra['job'])
 person('Minbo', 26, **extra)
+
+# 命名关键字参数
+def persons(name, age, **kw):
+    if 'city' in kw:
+        pass
+    if 'job' in kw:
+        pass
+    print('persons name:', name, 'age:', age, 'others:', kw)
+
+persons('test', 100, zipcode='123456')
+
+def person2(name, age, *, city='hunan', job):
+    print(name, age, city, job)
+
+person2('zhangsan',90,job='j')
+
+# *args是可变参数，args接收的是一个tuple
+# **kw是关键字参数，kw接收的是一个dict
+# 使用*args和**kw是Python的习惯写法，当然也可以用其他参数名，但最好使用习惯用法
+# 命名的关键字参数是为了限制调用者可以传入的参数名，同时可以提供默认值
+# 定义命名的关键字参数在没有可变参数的情况下不要忘了写分隔符*，否则定义的将是位置参数
