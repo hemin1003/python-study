@@ -19,3 +19,15 @@ def func2(a, *b):
 
 print(func2(1))
 print(func2(1 , 2, 3))
+
+
+# 函数作用域，global关键字声明的全局，否则不影响值的变化
+name = 'hm'
+
+def test():
+    global name
+    name = 'bg'
+    print(name)
+
+test()
+print(name)
