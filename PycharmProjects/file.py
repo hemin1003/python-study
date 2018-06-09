@@ -12,7 +12,7 @@
 # print(content)
 # file2.close()
 
-# mode=a表示文件内容追加
+# mode=a表示文件内容追加，默认是r=只读，w=可写
 # file3 = open('name.txt', mode='a')
 # file3.write('hemin')
 # file3.close()
