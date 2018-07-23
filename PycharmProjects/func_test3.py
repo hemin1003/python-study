@@ -39,10 +39,9 @@
 
 # 或者，lambda表达式，匿名函数
 def line(a, b):
-    return lambda x: a*x +b
+    return lambda x: a * x + b
+
 
 a_line = line(1, 2)
 print(a_line(2))
 print(a_line(10))
-
-
