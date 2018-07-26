@@ -13,6 +13,12 @@ class Animals(Monster):
 class Bpss(Monster):
     pass
 
+class Test():
+    def __init__(self, name):
+        self.name = name
+    def print_name(self):
+        print('my name is %s' %(self.name))
+
 a1 = Monster()
 print(a1.hp)
 print(a1.run())
@@ -20,3 +26,6 @@ print(a1.run())
 a2 = Animals(2)
 print(a2.hp)
 print(a2.run())
+
+test1 = Test('minbo')
+test1.print_name()
