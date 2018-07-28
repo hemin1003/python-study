@@ -23,9 +23,13 @@ a1 = Monster()
 print(a1.hp)
 print(a1.run())
 
-a2 = Animals(2)
+a2 = Animals(10)
 print(a2.hp)
 print(a2.run())
+
+a3 = Animals(210)
+print(a3.hp)
+print(a3.run())
 
 test1 = Test('minbo')
 test1.print_name()
