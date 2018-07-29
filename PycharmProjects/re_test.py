@@ -11,7 +11,7 @@
 # [] 匹配出现指定字符，比如[bcd]
 # | 匹配出现指定字符
 # \d 匹配数字
-# \D 匹配非数字
+# \D 匹配非数字，保留数字
 # \s 匹配字符串
 # () 分组
 
@@ -34,14 +34,25 @@ import re
 # print(r'\nx\n')
 
 
-# 匹配日期
-p3 = re.compile(r'(\d+)-(\d+)-(\d+)')
-# 对应数字代表对应部分
-print(p3.match('2018-05-01').group(1))
-# 一次性取出所有
-print(p3.match('2018-05-01').groups())
-# 赋值
-year , month , day = p3.match('2018-05-01').groups()
-print(year)
-print(month)
-print(day)
+# 匹配日期，完全匹配
+# p3 = re.compile(r'(\d+)-(\d+)-(\d+)')
+# # 对应数字代表对应部分
+# print(p3.match('2018-05-01').group(1))
+# # 一次性取出所有
+# print(p3.match('2018-05-01').groups())
+# # 赋值
+# year , month , day = p3.match('2018-05-01').groups()
+# print(year)
+# print(month)
+# print(day)
+
+# 搜索功能，不完全匹配
+# p4 = re.compile(r'(\d+)-(\d+)-(\d+)')
+# print(p4.search('aa2018-05-01c'))
+
+# 替换
+phone = '123-456-789 # 这是电话号码'
+p5 = re.sub(r'#.*$','', phone)
+print(p5)
+p6 = re.sub(r'\D','',p5)
+print(p6)
