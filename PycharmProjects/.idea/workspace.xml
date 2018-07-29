@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pachong_img">
+  <component name="RunManager" selected="Python.pachong_bs4">
     <configuration name="for" type="PythonConfigurationType" factoryName="Python">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +134,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="func_dec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func_dec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,24 +247,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pachong_request" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pachong_request.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="re_test" type="PythonConfigurationType" factoryName="Python">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,19 +307,19 @@
       <item itemvalue="Python.zodiac" />
       <item itemvalue="Python.for" />
       <item itemvalue="Python.func_more" />
-      <item itemvalue="Python.pachong_request" />
       <item itemvalue="Python.pachong_demo_html" />
       <item itemvalue="Python.pachong_bs4" />
       <item itemvalue="Python.pachong_news" />
       <item itemvalue="Python.pachong_img" />
+      <item itemvalue="Python.func_dec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pachong_bs4" />
+        <item itemvalue="Python.func_dec" />
         <item itemvalue="Python.pachong_img" />
         <item itemvalue="Python.pachong_news" />
-        <item itemvalue="Python.pachong_bs4" />
         <item itemvalue="Python.pachong_demo_html" />
-        <item itemvalue="Python.pachong_request" />
       </list>
     </recent_temporary>
   </component>
@@ -339,14 +339,14 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19305556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19305556" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50069445" side_tool="true" weight="0.32980132" />
       <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.36821193" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" sideWeight="0.49930555" visible="true" weight="0.18680556" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" sideWeight="0.49930555" visible="true" weight="0.18680556" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2794702" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,13 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func_dec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -705,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pachong_bs4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11400">
-          <caret line="760" lean-forward="true" selection-start-line="760" selection-end-line="760" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pachong_news.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -724,11 +710,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pachong_img.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="510">
           <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func_dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong_bs4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="745" column="3" lean-forward="true" selection-start-line="745" selection-start-column="3" selection-end-line="745" selection-end-column="3" />
         </state>
       </provider>
     </entry>
