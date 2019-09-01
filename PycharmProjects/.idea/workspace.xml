@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="829" />
@@ -121,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql_delete">
+  <component name="RunManager" selected="Python.mysql_connection">
     <configuration name="for" type="PythonConfigurationType" factoryName="Python">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +176,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mysql_createtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mysql_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql_createtable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql_connection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,19 +308,19 @@
       <item itemvalue="Python.zodiac" />
       <item itemvalue="Python.for" />
       <item itemvalue="Python.func_more" />
-      <item itemvalue="Python.mysql_createtable" />
       <item itemvalue="Python.mysql_insert" />
       <item itemvalue="Python.mysql_query" />
       <item itemvalue="Python.msyql_update" />
       <item itemvalue="Python.mysql_delete" />
+      <item itemvalue="Python.mysql_connection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mysql_connection" />
         <item itemvalue="Python.mysql_delete" />
         <item itemvalue="Python.msyql_update" />
         <item itemvalue="Python.mysql_query" />
         <item itemvalue="Python.mysql_insert" />
-        <item itemvalue="Python.mysql_createtable" />
       </list>
     </recent_temporary>
   </component>
